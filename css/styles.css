@@ -207,6 +207,14 @@ img {
 }
 /* ====END HERO===== */
 /* ======ПОДВАЛ===== */
+.footer {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 60px 0px 60px 215px ;
+  
+  background-color:#2F303A;
+
+}
 .address-name {
   font-weight: 400;
   font-size: 14px;
