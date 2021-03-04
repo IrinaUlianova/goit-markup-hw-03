@@ -1,0 +1,265 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-bg-color:#F5F4FA;
+}
+body {
+  font-family: var(--main-font);
+  color: #212121;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.address {
+  font-style: normal;
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* ======COMPONENTS======= */
+.title {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.section  {
+  padding: 94px 215px;
+}
+
+
+}
+.section-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+ .team {
+  background-color: var(--secondary-bg-color);
+}
+.title-names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18px;
+  
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.suptitle-light-theme {
+  color: #000000;
+}
+.suptitle-dark-theme {
+  color: #ffffff;
+}
+/* =====END COMPONENTS===== */
+/* =========SITE-NAV================ */
+.page-header {
+  background-color: tomato;
+}
+/* .container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid tomato;
+} */
+.logotype {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  
+  letter-spacing: 0.03em;
+}
+.logo-item {
+  color: var(--accent-color);
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+.navigation-list .current {
+  color: var(--accent-color);
+}
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+/* =====END SITE-NAV====== */
+/* ==========HERO============ */
+.hero {
+  padding: 200px 452px 280px 452px;
+  text-align: center;
+   background-color: #000000;
+}
+
+.hero-title {
+  
+  margin-bottom: 30px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+ 
+}
+.modal-btn {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding:10px 32px;
+  min-width: 200px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87; 
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+
+}
+/* ====END HERO===== */
+/* ======ПОДВАЛ===== */
+.address-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71px;
+  
+
+  letter-spacing: 0.03em;
+
+  /* color: #FFFFFF; */
+}
+.contacts {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  
+
+  letter-spacing: 0.03em;
+
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+/* ====== END ПОДВАЛ */
+/* ========PORTFOLIO.CSS======= */
+.modal-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+ 
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.modal-button:hover,
+.modal-button:focus {
+  color: #ffffff;
+  background: var(--accent-color);
+  cursor: pointer;+.  
+}
+.works-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  
+
+  letter-spacing: 0.06em;
+}
+.works-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+ 
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
