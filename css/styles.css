@@ -112,15 +112,7 @@ img {
 }
 /* =====END COMPONENTS===== */
 /* =========SITE-NAV================ */
-/* .page-header {
-  background-color: tomato;
-} */
-/* .container {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
-  outline: 1px solid tomato;
-} */
+
 /* nav-container */
 .nav-container {
   display: flex;
@@ -132,7 +124,6 @@ img {
   align-items: center;
 }
 .logo-item {
-  /* display: inline-block; */
   color: var(--accent-color);
 }
 .logotype {
@@ -143,19 +134,13 @@ img {
 
   letter-spacing: 0.03em;
 }
-/* .suptitle-light-theme {
-  margin-bottom: 0px;
-} */
 
 .navigation-list {
   display: flex;
   align-items: center;
   margin-left: 93px;
 }
-/* .navigation-list .navigation-item{
-  outline: 1px solid tomato;
-  
-} */
+
 .navigation-list .navigation-item + .navigation-item {
   margin-left: 50px;
 }
@@ -287,12 +272,12 @@ img {
   margin-bottom: 0;
   margin-top: 0;
   padding: 60px 0px 60px 215px;
-
   background-color: #2f303a;
 }
-/* .logotype {
+
+.suptitle-dark-theme {
   margin-bottom: 20px;
-} */
+}
 .address-name {
   margin-bottom: 9px;
   font-weight: 400;
@@ -300,9 +285,9 @@ img {
   line-height: 1.71px;
 
   letter-spacing: 0.03em;
-
-  /* color: #FFFFFF; */
+  color: #ffffff;
 }
+
 .contacts {
   margin-bottom: 6px;
   font-weight: normal;
@@ -311,17 +296,23 @@ img {
 
   letter-spacing: 0.03em;
 
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 /* ====== END ПОДВАЛ */
 /* ========PORTFOLIO.CSS======= */
-
+.filter {
+  display: flex;
+}
 .filter-button {
+  margin-left: auto;
+  margin-right: auto;
   padding: 94px 494px 34px 495px;
 }
-
-.filter-list {
-  display: flex;
+.filter-item {
+  margin-right: 8px;
+}
+.filter-item:nth-child(5n) {
+  margin-right: 0;
 }
 
 .modal-button {
@@ -344,12 +335,20 @@ img {
   background: var(--accent-color);
   cursor: pointer;
 }
+.works {
+  padding-bottom: 94px;
+}
 .works-list {
   display: flex;
   flex-wrap: wrap;
 }
+.card-content {
+  padding: 20px 24px;
+}
 
 .works-title {
+  /* margin-top: 20px; */
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -357,6 +356,7 @@ img {
   letter-spacing: 0.06em;
 }
 .works-list-item {
+  border-bottom: 1px solid #eeeeee;
   margin-right: 30px;
   margin-bottom: 30px;
 }
