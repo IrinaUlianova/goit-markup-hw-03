@@ -22,7 +22,7 @@
   <body>
     <!--Шапка сайта-->
     <header class="header page-header">
-      <div class="container nav-container">
+      <div class="container">
         <nav class="navigation">
           <a href="/" class="logotype link suptitle-light-theme">
             <span class="logo-item"> Web</span>StudIo
@@ -61,11 +61,14 @@
     <main>
       <!--Герой-->
       <section class="hero">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button class="modal-btn" type="button">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button class="modal-btn" type="button">Заказать услугу</button>
+        </div>
       </section>
 
       <!--Преимущества-->
+      <!-- <div class="feature-set"> -->
       <section class="section">
         <div class="container">
           <h2 class="section-title visually-hidden">Преимущества</h2>
@@ -101,8 +104,10 @@
           </ul>
         </div>
       </section>
+      <!-- </div> -->
       <!-- О себе-->
-      <section class="section">
+
+      <section class="section section-about-us">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="about-list list">
@@ -133,6 +138,7 @@
           </ul>
         </div>
       </section>
+
       <!--Team-->
       <section class="section team">
         <div class="container">
@@ -145,8 +151,10 @@
                 alt=" Мужчина с бородой в очках"
                 width="270"
               />
-              <h3 class="title-names">Игорь Демьяненко</h3>
-              <p class="subtitle" lang="en">Product Designer</p>
+              <div class="team-list-item">
+                <h3 class="title-names">Игорь Демьяненко</h3>
+                <p class="subtitle" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="image-item">
               <img
@@ -155,8 +163,10 @@
                 alt=" Девушка со светлыми волосами в очках "
                 width="270"
               />
-              <h3 class="title-names">Ольга Репина</h3>
-              <p class="subtitle" lang="en">Frontend Developer</p>
+              <div class="team-list-item">
+                <h3 class="title-names">Ольга Репина</h3>
+                <p class="subtitle" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="image-item">
               <img
@@ -165,8 +175,10 @@
                 alt="Мужчина улыбается и смотрит в сторону"
                 width="270"
               />
-              <h3 class="title-names">Николай Тарасов</h3>
-              <p class="subtitle" lang="en">Marketing</p>
+              <div class="team-list-item">
+                <h3 class="title-names">Николай Тарасов</h3>
+                <p class="subtitle" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="image-item">
               <img
@@ -175,8 +187,10 @@
                 alt="Мужчина с ухмылкой"
                 width="270"
               />
-              <h3 class="title-names">Михаил Ермаков</h3>
-              <p class="subtitle" lang="en">UI Designer</p>
+              <div class="team-list-item">
+                <h3 class="title-names">Михаил Ермаков</h3>
+                <p class="subtitle" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
